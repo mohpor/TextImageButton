@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import Material
 
 /**
 UIButton subclass that allows allows changing spacing between text and image and 
 side the image is displayed on.
 */
-@objc open class TextImageButton: UIButton {
+@objc open class TextImageButton: Button {
   
   /// Represents horizontal side for the imagePosition attribute
   @objc public enum Side: Int {
