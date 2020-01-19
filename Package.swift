@@ -16,9 +16,9 @@ let package = Package(
     ],
     targets: [
         .target(
+            dependencies: ["Material"],
             name: "TextImageButton",
-            path: "Pod/Classes",
-            dependencies: ["Material"]
+            path: "Pod/Classes"          
             ),
     ],
     swiftLanguageVersions: [.v5]
