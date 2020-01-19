@@ -16,8 +16,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            dependencies: ["Material"],
             name: "TextImageButton",
+            dependencies: ["Material"],          
             path: "Pod/Classes"          
             ),
     ],
