@@ -12,7 +12,7 @@ let package = Package(
             targets: ["TextImageButton"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/CosmicMind/Material", .branch("ios13")),
+        .package(url: "https://github.com/mohpor/Material", .branch("ios13")),
     ],
     targets: [
         .target(
